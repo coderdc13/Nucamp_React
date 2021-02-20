@@ -66,14 +66,14 @@ class Contact extends Component {
                 <div className="col-sm-4">
                     <h5>Our Address</h5>
                     <address>
-                        1 Nucamp Way<br />
-                        Seattle, WA 98001<br />
-                        U.S.A.
+                        One Baller Drive<br />
+                        Hyattsville, MD 98001<br />
+                        United States of America
                     </address>
                 </div>
                 <div className="col">
-                    <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone" /> 1-206-555-1234</a><br />
-                    <a role="button" className="btn btn-link" href="mailto:fakeemail@fakeemail.co"><i className="fa fa-envelope-o" /> campsites@nucamp.co</a>
+                    <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone" /> 1 301 111 1111</a><br />
+                    <a role="button" className="btn btn-link" href="mailto:fakeemail@fakeemail.co"><i className="fa fa-envelope-o" /> Owner@PythonABC.org</a>
                     </div>
                     </div>
 
@@ -202,14 +202,14 @@ class Contact extends Component {
                                                 name="agree"
                                                 className="form-check-input"
                                             /> {' '}
-                                            <strong>May we contact you?</strong>
+                                            <strong>May We Please Contact You?</strong>
                                         </Label>
                                     </div>
                                 </Col>
                                 <Col md={4}>
                                     <Control.select model=".contactType" name="contactType"
                                         className="form-control">
-                                        <option>By Phone</option>
+                                        <option>By Telephone</option>
                                         <option>By Email</option>
                                     </Control.select>
                                 </Col>
@@ -226,7 +226,7 @@ class Contact extends Component {
                             <Row className="form-group">
                                 <Col md={{size: 10, offset: 2}}>
                                     <Button type="submit" color="primary">
-                                        Send Feedback
+                                        Please Send Feedback
                                     </Button>
                                 </Col>
                             </Row>
